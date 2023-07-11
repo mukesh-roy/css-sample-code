@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        @keyframes text-animation {
+            0% {
+                transform: translateX(0);
+            }
+            50% {
+                transform: translateX(100px);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        .text-animation-example {
+            animation: text-animation 3s infinite;
+        }
+    </style>
+</head>
+<body>
+
+<p class="text-animation-example">
+    This text has a horizontal animation effect.
+</p>
+
+</body>
+</html>
